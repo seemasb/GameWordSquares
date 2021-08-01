@@ -1,0 +1,71 @@
+/* CSS reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+/* padding-top: 10px; */
+}
+  
+
+body {
+  color: #333;
+  background-color: #55B5F4;
+
+}
+
+/* Common */
+
+.fix {
+  *zoom: 1;
+}
+
+.fix:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+/* Home */
+
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+  position:relative;
+}
+
+.logo, #gameArea {
+  margin-bottom: 40px;
+}
+
+.ws-area, .ws-words {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ws-words {
+  margin-left: 125px;
+  margin-top: 30px;
+  text-align: left;
+  display: flex;
+  gap: 4%;
+}
+
+.ws-word {
+  margin-bottom: 4px;
+  min-width: 100px;
+  min-height: 25px;
+  padding-top: 6px;
+  font-size: medium;
+  font-weight: normal;
+}
+
+.ws-words ::first-letter{
+	text-transform : capitalize;
+}
